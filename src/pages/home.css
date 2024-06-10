@@ -1,0 +1,28 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 15);
+    max-width: 800px;
+}
+
+.styled-table thead tr {
+    background-color: #009879; /* Color de fondo del encabezado */
+    color: #472e2e; /* Color del texto del encabezado */
+    text-align: left;
+}
+
+
+
+.btn {
+  border: none;
+  color:white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+}
