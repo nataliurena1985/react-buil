@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 import axios from "axios";
 
 import "./home.css";
@@ -20,10 +20,14 @@ const Home = () => {
   }, []);
 
   return (
-    <div style={{ marginTop: "150px" }}>
-      <table className="table table-striped">
-        <thead >
-          <tr>
+    <div className="text-center">
+      <Link to="/addContact">
+        <button className="btn btn-primary ">Add Contact</button>
+      </Link>
+
+      <table className="table table-striped  styled-table">
+        <thead>
+          <tr className="tuClase">
             <th style={{ textAlign: "center" }}>No.</th>
             <th style={{ textAlign: "center" }}>Name</th>
             <th style={{ textAlign: "center" }}>Email</th>

@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0 0 20px rgba(0, 0, 0, 15);
     max-width: 800px;
+    
+}
+.styled-table-container {
+    display: flex;
+    justify-content: center; /* Método 2: Flexbox */
 }
 
 .styled-table thead tr {
@@ -12,7 +17,6 @@
     color: #472e2e; /* Color del texto del encabezado */
     text-align: left;
 }
-
 
 
 .btn {
@@ -26,3 +30,11 @@
   font-size: 16px;
   margin: 4px 2px;
 }
+
+.tuClase {
+    background-color: #009879; /* Color de fondo del encabezado */
+    color: green; /* Color del texto del encabezado */
+    text-align: left;
+    
+}
+
